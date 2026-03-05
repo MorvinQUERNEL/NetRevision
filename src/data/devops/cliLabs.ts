@@ -1,0 +1,346 @@
+export interface DevOpsLabObjective {
+  id: string
+  description: string
+  command: string
+}
+
+export interface DevOpsLabScenario {
+  id: number
+  slug: string
+  title: string
+  description: string
+  difficulty: 'debutant' | 'intermediaire' | 'avance' | 'expert'
+  chapterSlug: string
+  points: number
+  objectives: DevOpsLabObjective[]
+  hints: string[]
+}
+
+export const cliLabs: DevOpsLabScenario[] = [
+  // === Labs Bash / Linux ===
+  {
+    id: 1,
+    slug: 'linux-navigation',
+    title: 'Navigation dans le systeme de fichiers',
+    description: 'Apprenez a naviguer dans l\'arborescence Linux, creer des repertoires et manipuler des fichiers avec les commandes de base.',
+    difficulty: 'debutant',
+    chapterSlug: 'linux-introduction',
+    points: 15,
+    objectives: [
+      { id: 'l1_1', description: 'Affichez le repertoire de travail courant', command: 'pwd' },
+      { id: 'l1_2', description: 'Listez le contenu du repertoire /etc avec les details', command: 'ls -la /etc' },
+      { id: 'l1_3', description: 'Creez un repertoire "projet" dans /tmp', command: 'mkdir /tmp/projet' },
+      { id: 'l1_4', description: 'Creez un fichier vide "README.md" dans /tmp/projet', command: 'touch /tmp/projet/README.md' },
+      { id: 'l1_5', description: 'Affichez l\'arborescence du repertoire /tmp/projet', command: 'ls -R /tmp/projet' },
+    ],
+    hints: [
+      'pwd affiche le chemin absolu du repertoire courant',
+      'ls -la affiche les fichiers caches (.) et les details (permissions, taille, date)',
+      'mkdir cree un repertoire. Utilisez -p pour creer les parents manquants',
+      'touch cree un fichier vide ou met a jour la date de modification',
+    ],
+  },
+  {
+    id: 2,
+    slug: 'linux-permissions',
+    title: 'Gestion des permissions et utilisateurs',
+    description: 'Maitrisez les permissions Linux (chmod, chown) et la gestion des utilisateurs et groupes.',
+    difficulty: 'debutant',
+    chapterSlug: 'linux-permissions',
+    points: 20,
+    objectives: [
+      { id: 'l2_1', description: 'Affichez les permissions du fichier /etc/passwd', command: 'ls -l /etc/passwd' },
+      { id: 'l2_2', description: 'Creez un script test.sh et rendez-le executable', command: 'chmod +x test.sh' },
+      { id: 'l2_3', description: 'Changez les permissions du script en 755', command: 'chmod 755 test.sh' },
+      { id: 'l2_4', description: 'Affichez votre UID, GID et groupes', command: 'id' },
+    ],
+    hints: [
+      'Les permissions se lisent : proprietaire(rwx) groupe(rwx) autres(rwx)',
+      '7=rwx, 5=r-x, 4=r--, 0=--- en notation octale',
+      'chmod +x ajoute le droit d\'execution pour tous',
+      'id affiche l\'UID, le GID et les groupes de l\'utilisateur courant',
+    ],
+  },
+  {
+    id: 3,
+    slug: 'linux-services',
+    title: 'Gestion des services avec systemd',
+    description: 'Apprenez a gerer les services Linux avec systemctl : demarrer, arreter, verifier l\'etat et consulter les logs.',
+    difficulty: 'intermediaire',
+    chapterSlug: 'linux-services',
+    points: 25,
+    objectives: [
+      { id: 'l3_1', description: 'Verifiez l\'etat du service SSH', command: 'systemctl status sshd' },
+      { id: 'l3_2', description: 'Listez tous les services actifs', command: 'systemctl list-units --type=service --state=running' },
+      { id: 'l3_3', description: 'Affichez les 20 derniers logs du systeme', command: 'journalctl -n 20' },
+      { id: 'l3_4', description: 'Affichez les logs du service SSH uniquement', command: 'journalctl -u sshd' },
+    ],
+    hints: [
+      'systemctl status affiche l\'etat, le PID et les derniers logs d\'un service',
+      'list-units filtre par type (service, socket, timer) et par etat',
+      'journalctl est l\'outil de consultation des logs systemd',
+      '-u filtre par unite (service), -n limite le nombre de lignes',
+    ],
+  },
+  {
+    id: 4,
+    slug: 'linux-bash-scripting',
+    title: 'Scripting Bash : pipes et redirections',
+    description: 'Maitrisez les pipes, les redirections et les commandes de traitement de texte (grep, wc, sort).',
+    difficulty: 'intermediaire',
+    chapterSlug: 'linux-bash',
+    points: 25,
+    objectives: [
+      { id: 'l4_1', description: 'Comptez le nombre de lignes du fichier /etc/passwd', command: 'wc -l /etc/passwd' },
+      { id: 'l4_2', description: 'Recherchez les lignes contenant "root" dans /etc/passwd', command: 'grep root /etc/passwd' },
+      { id: 'l4_3', description: 'Listez les processus et filtrez par "ssh"', command: 'ps aux | grep ssh' },
+      { id: 'l4_4', description: 'Triez les fichiers de /tmp par taille (du plus gros au plus petit)', command: 'ls -lS /tmp' },
+      { id: 'l4_5', description: 'Redirigez la liste des fichiers de /etc dans un fichier /tmp/listing.txt', command: 'ls /etc > /tmp/listing.txt' },
+    ],
+    hints: [
+      'wc -l compte les lignes, wc -w les mots, wc -c les caracteres',
+      'grep recherche un motif dans un fichier ou un flux (pipe)',
+      'Le pipe | connecte la sortie d\'une commande a l\'entree de la suivante',
+      '> redirige en ecrasant, >> redirige en ajoutant a la fin',
+    ],
+  },
+  {
+    id: 5,
+    slug: 'linux-network',
+    title: 'Diagnostic reseau sous Linux',
+    description: 'Utilisez les outils reseau Linux : ip, ss, ping, curl pour diagnostiquer et tester la connectivite.',
+    difficulty: 'intermediaire',
+    chapterSlug: 'linux-ssh',
+    points: 25,
+    objectives: [
+      { id: 'l5_1', description: 'Affichez les interfaces reseau et leurs adresses IP', command: 'ip addr show' },
+      { id: 'l5_2', description: 'Affichez les ports TCP en ecoute', command: 'ss -tlnp' },
+      { id: 'l5_3', description: 'Testez la connectivite vers 8.8.8.8 avec 3 pings', command: 'ping -c 3 8.8.8.8' },
+      { id: 'l5_4', description: 'Affichez la table de routage', command: 'ip route show' },
+    ],
+    hints: [
+      'ip addr show (ou ip a) remplace ifconfig sur les systemes modernes',
+      'ss -tlnp : t=TCP, l=listening, n=numerique, p=process',
+      'ping -c N limite le nombre de paquets ICMP envoyes',
+      'ip route show affiche la table de routage (gateway par defaut, etc.)',
+    ],
+  },
+  // === Labs Docker ===
+  {
+    id: 6,
+    slug: 'docker-basics',
+    title: 'Docker : premiers pas',
+    description: 'Lancez vos premiers conteneurs Docker, explorez les images et gerez le cycle de vie des conteneurs.',
+    difficulty: 'debutant',
+    chapterSlug: 'docker-introduction',
+    points: 20,
+    objectives: [
+      { id: 'l6_1', description: 'Verifiez la version de Docker installee', command: 'docker --version' },
+      { id: 'l6_2', description: 'Lancez un conteneur Nginx en arriere-plan sur le port 8080', command: 'docker run -d -p 8080:80 --name web nginx' },
+      { id: 'l6_3', description: 'Listez les conteneurs en cours d\'execution', command: 'docker ps' },
+      { id: 'l6_4', description: 'Affichez les logs du conteneur "web"', command: 'docker logs web' },
+      { id: 'l6_5', description: 'Arretez et supprimez le conteneur "web"', command: 'docker stop web && docker rm web' },
+    ],
+    hints: [
+      '-d lance en arriere-plan (detached), -p mappe les ports (hote:conteneur)',
+      '--name donne un nom au conteneur pour le referencer facilement',
+      'docker ps affiche les conteneurs actifs, -a affiche tous',
+      'docker logs -f suit les logs en temps reel (comme tail -f)',
+    ],
+  },
+  {
+    id: 7,
+    slug: 'docker-images',
+    title: 'Construction d\'images Docker',
+    description: 'Construisez une image Docker a partir d\'un Dockerfile, explorez les layers et optimisez la taille.',
+    difficulty: 'intermediaire',
+    chapterSlug: 'docker-dockerfile',
+    points: 30,
+    objectives: [
+      { id: 'l7_1', description: 'Listez les images Docker presentes localement', command: 'docker images' },
+      { id: 'l7_2', description: 'Telechargez l\'image Alpine Linux', command: 'docker pull alpine:latest' },
+      { id: 'l7_3', description: 'Construisez une image a partir du Dockerfile courant', command: 'docker build -t mon-app:v1 .' },
+      { id: 'l7_4', description: 'Inspectez les layers de l\'image', command: 'docker history mon-app:v1' },
+      { id: 'l7_5', description: 'Supprimez les images non utilisees', command: 'docker image prune' },
+    ],
+    hints: [
+      'docker images ou docker image ls liste les images locales',
+      'docker pull telecharge une image depuis un registre (Docker Hub par defaut)',
+      '-t nomme et tague l\'image (nom:tag). Le "." indique le contexte de build',
+      'docker history montre chaque layer avec sa taille et la commande source',
+    ],
+  },
+  {
+    id: 8,
+    slug: 'docker-volumes',
+    title: 'Persistance des donnees avec les volumes',
+    description: 'Creez et gerez des volumes Docker pour persister les donnees independamment du cycle de vie des conteneurs.',
+    difficulty: 'intermediaire',
+    chapterSlug: 'docker-volumes',
+    points: 25,
+    objectives: [
+      { id: 'l8_1', description: 'Creez un volume nomme "db-data"', command: 'docker volume create db-data' },
+      { id: 'l8_2', description: 'Listez tous les volumes Docker', command: 'docker volume ls' },
+      { id: 'l8_3', description: 'Lancez un conteneur avec le volume monte', command: 'docker run -d -v db-data:/var/lib/mysql --name db mysql:8' },
+      { id: 'l8_4', description: 'Inspectez les details du volume', command: 'docker volume inspect db-data' },
+    ],
+    hints: [
+      'docker volume create cree un volume gere par Docker',
+      '-v nom:/chemin monte le volume dans le conteneur au chemin specifie',
+      'docker volume inspect montre le point de montage sur l\'hote',
+      'docker volume prune supprime les volumes orphelins (attention !)',
+    ],
+  },
+  {
+    id: 9,
+    slug: 'docker-compose-lab',
+    title: 'Application multi-conteneurs avec Compose',
+    description: 'Deployez une application complete (web + base de donnees) avec Docker Compose.',
+    difficulty: 'avance',
+    chapterSlug: 'docker-compose',
+    points: 35,
+    objectives: [
+      { id: 'l9_1', description: 'Verifiez la version de Docker Compose', command: 'docker compose version' },
+      { id: 'l9_2', description: 'Demarrez tous les services definis dans compose.yml', command: 'docker compose up -d' },
+      { id: 'l9_3', description: 'Verifiez l\'etat des services', command: 'docker compose ps' },
+      { id: 'l9_4', description: 'Affichez les logs du service "api"', command: 'docker compose logs api' },
+      { id: 'l9_5', description: 'Arretez et nettoyez tous les services', command: 'docker compose down -v' },
+    ],
+    hints: [
+      'docker compose (v2, sans tiret) est la version moderne de docker-compose',
+      '-d lance en arriere-plan. --build force la reconstruction des images',
+      'docker compose ps montre l\'etat de chaque service',
+      '-v avec down supprime aussi les volumes nommes',
+    ],
+  },
+  {
+    id: 10,
+    slug: 'docker-network',
+    title: 'Reseaux Docker personnalises',
+    description: 'Creez des reseaux Docker user-defined et testez la communication inter-conteneurs par nom DNS.',
+    difficulty: 'avance',
+    chapterSlug: 'docker-networking',
+    points: 30,
+    objectives: [
+      { id: 'l10_1', description: 'Creez un reseau Docker personnalise "app-net"', command: 'docker network create app-net' },
+      { id: 'l10_2', description: 'Lancez un conteneur Nginx sur ce reseau', command: 'docker run -d --name web --network app-net nginx' },
+      { id: 'l10_3', description: 'Lancez un conteneur Alpine et testez la resolution DNS', command: 'docker run --rm --network app-net alpine ping -c 2 web' },
+      { id: 'l10_4', description: 'Inspectez le reseau pour voir les conteneurs connectes', command: 'docker network inspect app-net' },
+    ],
+    hints: [
+      'docker network create cree un reseau bridge user-defined',
+      '--network attache le conteneur au reseau specifie',
+      'Sur un reseau user-defined, les conteneurs se resolvent par nom (DNS Docker)',
+      'docker network inspect montre les conteneurs, le subnet et le gateway',
+    ],
+  },
+  // === Labs kubectl ===
+  {
+    id: 11,
+    slug: 'k8s-basics',
+    title: 'Kubernetes : premiers pas avec kubectl',
+    description: 'Explorez un cluster Kubernetes : noeuds, pods, deployments et services avec les commandes kubectl de base.',
+    difficulty: 'intermediaire',
+    chapterSlug: 'k8s-introduction',
+    points: 25,
+    objectives: [
+      { id: 'l11_1', description: 'Affichez les informations du cluster', command: 'kubectl cluster-info' },
+      { id: 'l11_2', description: 'Listez les noeuds du cluster', command: 'kubectl get nodes' },
+      { id: 'l11_3', description: 'Listez les pods dans tous les namespaces', command: 'kubectl get pods --all-namespaces' },
+      { id: 'l11_4', description: 'Listez les namespaces disponibles', command: 'kubectl get namespaces' },
+    ],
+    hints: [
+      'kubectl cluster-info affiche l\'adresse du control plane et des services',
+      'kubectl get nodes montre les noeuds avec leur statut (Ready/NotReady)',
+      '--all-namespaces ou -A affiche les ressources de tous les namespaces',
+      'Les namespaces par defaut sont : default, kube-system, kube-public',
+    ],
+  },
+  {
+    id: 12,
+    slug: 'k8s-deployments',
+    title: 'Deployer une application sur Kubernetes',
+    description: 'Creez un Deployment, exposez-le via un Service et testez le scaling et le rolling update.',
+    difficulty: 'avance',
+    chapterSlug: 'k8s-pods',
+    points: 35,
+    objectives: [
+      { id: 'l12_1', description: 'Creez un Deployment Nginx avec 3 replicas', command: 'kubectl create deployment nginx --image=nginx:1.25 --replicas=3' },
+      { id: 'l12_2', description: 'Verifiez que les 3 pods sont Running', command: 'kubectl get pods -l app=nginx' },
+      { id: 'l12_3', description: 'Exposez le Deployment comme Service NodePort', command: 'kubectl expose deployment nginx --port=80 --type=NodePort' },
+      { id: 'l12_4', description: 'Scalez le Deployment a 5 replicas', command: 'kubectl scale deployment nginx --replicas=5' },
+      { id: 'l12_5', description: 'Mettez a jour l\'image vers nginx:1.26 (rolling update)', command: 'kubectl set image deployment/nginx nginx=nginx:1.26' },
+    ],
+    hints: [
+      'kubectl create deployment est la commande imperative pour creer un Deployment',
+      '-l app=nginx filtre les pods par label (selector du Deployment)',
+      'kubectl expose cree un Service pour un Deployment existant',
+      'kubectl set image declenche un rolling update sans modifier le YAML',
+    ],
+  },
+  {
+    id: 13,
+    slug: 'k8s-config-secrets',
+    title: 'ConfigMaps et Secrets dans Kubernetes',
+    description: 'Creez des ConfigMaps et Secrets, puis injectez-les dans les pods comme variables d\'environnement.',
+    difficulty: 'avance',
+    chapterSlug: 'k8s-config',
+    points: 30,
+    objectives: [
+      { id: 'l13_1', description: 'Creez un ConfigMap avec des valeurs litterales', command: 'kubectl create configmap app-config --from-literal=APP_ENV=production --from-literal=LOG_LEVEL=info' },
+      { id: 'l13_2', description: 'Creez un Secret avec un mot de passe', command: 'kubectl create secret generic db-secret --from-literal=DB_PASSWORD=SuperSecret123' },
+      { id: 'l13_3', description: 'Verifiez le ConfigMap', command: 'kubectl describe configmap app-config' },
+      { id: 'l13_4', description: 'Affichez le Secret (valeurs en base64)', command: 'kubectl get secret db-secret -o yaml' },
+    ],
+    hints: [
+      '--from-literal cree des paires cle=valeur dans le ConfigMap/Secret',
+      '--from-file charge le contenu d\'un fichier comme valeur',
+      'describe montre les details sans decoder les valeurs',
+      'Les Secrets sont en base64 : echo "U3VwZXJTZWNyZXQ=" | base64 -d pour decoder',
+    ],
+  },
+  {
+    id: 14,
+    slug: 'k8s-troubleshoot',
+    title: 'Depannage Kubernetes',
+    description: 'Diagnostiquez les problemes courants : pods en erreur, events, logs et description detaillee des ressources.',
+    difficulty: 'expert',
+    chapterSlug: 'k8s-autoscaling',
+    points: 40,
+    objectives: [
+      { id: 'l14_1', description: 'Affichez les events recents du cluster', command: 'kubectl get events --sort-by=.metadata.creationTimestamp' },
+      { id: 'l14_2', description: 'Decrivez un pod en erreur pour voir les details', command: 'kubectl describe pod <nom-du-pod>' },
+      { id: 'l14_3', description: 'Affichez les logs d\'un pod', command: 'kubectl logs <nom-du-pod>' },
+      { id: 'l14_4', description: 'Executez un shell interactif dans un pod', command: 'kubectl exec -it <nom-du-pod> -- /bin/sh' },
+      { id: 'l14_5', description: 'Verifiez l\'utilisation des ressources des pods', command: 'kubectl top pods' },
+    ],
+    hints: [
+      'Les events montrent les erreurs de scheduling, d\'image pull et de probes',
+      'describe affiche les conditions, events et raisons d\'echec d\'un pod',
+      'kubectl logs -f suit les logs en temps reel. --previous montre les logs du conteneur precedent',
+      'kubectl top necessite le Metrics Server installe dans le cluster',
+    ],
+  },
+  {
+    id: 15,
+    slug: 'k8s-helm-lab',
+    title: 'Deployer avec Helm',
+    description: 'Utilisez Helm pour installer, configurer et gerer des applications sur Kubernetes.',
+    difficulty: 'expert',
+    chapterSlug: 'k8s-helm',
+    points: 40,
+    objectives: [
+      { id: 'l15_1', description: 'Ajoutez le depot Helm Bitnami', command: 'helm repo add bitnami https://charts.bitnami.com/bitnami' },
+      { id: 'l15_2', description: 'Recherchez un chart Nginx dans les depots', command: 'helm search repo nginx' },
+      { id: 'l15_3', description: 'Installez Nginx avec Helm', command: 'helm install my-nginx bitnami/nginx' },
+      { id: 'l15_4', description: 'Listez les releases Helm installees', command: 'helm list' },
+      { id: 'l15_5', description: 'Desinstallez la release', command: 'helm uninstall my-nginx' },
+    ],
+    hints: [
+      'helm repo add ajoute un depot de charts. helm repo update rafraichit la liste',
+      'helm search repo recherche dans les depots ajoutes localement',
+      'helm install nom-release chart installe le chart. --set surcharge les valeurs',
+      'helm list affiche toutes les releases. helm status <release> donne les details',
+    ],
+  },
+]

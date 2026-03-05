@@ -1,0 +1,170 @@
+# NetRevision — robots.txt
+# https://netrevision.fr
+# Plateforme gratuite de revision CCNA 200-301
+
+# ===================
+# Moteurs de recherche
+# ===================
+User-agent: *
+Allow: /
+Allow: /cours
+Allow: /cours/
+Allow: /blog
+Allow: /blog/
+Allow: /a-propos
+Allow: /auteur
+Allow: /login
+Allow: /register
+Allow: /mentions-legales
+Allow: /politique-confidentialite
+Allow: /cgu
+
+# Pages protegees (authentification requise)
+Disallow: /api/
+Disallow: /dashboard
+Disallow: /profil
+Disallow: /progression
+Disallow: /notes
+Disallow: /admin
+Disallow: /analytics
+Disallow: /forum
+Disallow: /partage
+Disallow: /fiches-pdf
+Disallow: /quiz/
+Disallow: /examens
+Disallow: /examen
+Disallow: /examen-avance
+Disallow: /examen-entreprise
+Disallow: /examen-expert
+Disallow: /examen-global
+Disallow: /examen-wireless
+Disallow: /examen-automation
+Disallow: /calculatrice
+Disallow: /flashcards
+Disallow: /exercices-subnetting
+Disallow: /simulateur-cli
+Disallow: /glossaire
+Disallow: /leaderboard
+Disallow: /badges
+Disallow: /schemas-reseau
+Disallow: /defis
+Disallow: /duel
+Disallow: /quiz-aleatoire
+Disallow: /parcours
+Disallow: /survie
+Disallow: /mini-jeux
+Disallow: /ctf
+Disallow: /quiz-communautaire
+Disallow: /revision-espacee
+Disallow: /comparateur
+Disallow: /plan-adressage
+Disallow: /visualiseur-paquet
+Disallow: /export
+Disallow: /formateur
+Disallow: /niveaux
+
+# ===================
+# Crawlers IA / LLM (GEO - Generative Engine Optimization)
+# ===================
+
+# OpenAI
+User-agent: GPTBot
+Allow: /
+Allow: /llms.txt
+Allow: /blog
+Allow: /blog/
+Allow: /cours
+Allow: /cours/
+Allow: /a-propos
+Allow: /auteur
+Disallow: /api/
+Disallow: /dashboard
+Disallow: /profil
+Disallow: /quiz/
+
+User-agent: ChatGPT-User
+Allow: /
+Allow: /llms.txt
+Disallow: /api/
+Disallow: /dashboard
+
+# Anthropic
+User-agent: Claude-Web
+Allow: /
+Allow: /llms.txt
+Disallow: /api/
+Disallow: /dashboard
+
+User-agent: ClaudeBot
+Allow: /
+Allow: /llms.txt
+Disallow: /api/
+Disallow: /dashboard
+
+# Google AI
+User-agent: Google-Extended
+Allow: /
+Allow: /llms.txt
+Disallow: /api/
+Disallow: /dashboard
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+Allow: /llms.txt
+Disallow: /api/
+Disallow: /dashboard
+
+# Amazon
+User-agent: Amazonbot
+Allow: /
+Allow: /llms.txt
+Disallow: /api/
+Disallow: /dashboard
+
+# Meta
+User-agent: FacebookBot
+Allow: /
+Disallow: /api/
+Disallow: /dashboard
+
+User-agent: Meta-ExternalAgent
+Allow: /
+Allow: /llms.txt
+Disallow: /api/
+Disallow: /dashboard
+
+# Cohere
+User-agent: cohere-ai
+Allow: /
+Allow: /llms.txt
+Disallow: /api/
+Disallow: /dashboard
+
+# Apple
+User-agent: Applebot-Extended
+Allow: /
+Allow: /llms.txt
+Disallow: /api/
+Disallow: /dashboard
+
+# Microsoft / Bing AI
+User-agent: Bingbot
+Allow: /
+Disallow: /api/
+Disallow: /dashboard
+
+# ByteDance
+User-agent: Bytespider
+Allow: /
+Allow: /llms.txt
+Disallow: /api/
+Disallow: /dashboard
+
+# ===================
+# Fichiers importants
+# ===================
+Sitemap: https://netrevision.fr/sitemap.xml
+
+# LLM-friendly content description
+# See https://netrevision.fr/llms.txt

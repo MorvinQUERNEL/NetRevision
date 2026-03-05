@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Build output
+dist/
+dist-ssr/
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+backend/.env
+backend/.env.dev
+backend/config/jwt/private.pem
+backend/config/jwt/public.pem
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+var/
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Lock files (regenerated)
+package-lock.json
+backend/composer.lock
+
+# Project documentation with secrets
+CLAUDE.md
+frontend/CLAUDE.md
+deploy.sh
+
+# Symfony cache
+backend/var/
+
+# Frontend duplicate (mirror of src/)
+frontend/node_modules/
+frontend/dist/

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Pages principales -->
+  <url>
+    <loc>https://netrevision.fr/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://netrevision.fr/cours</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://netrevision.fr/blog</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://netrevision.fr/register</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://netrevision.fr/login</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://netrevision.fr/a-propos</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://netrevision.fr/auteur</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://netrevision.fr/mentions-legales</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://netrevision.fr/politique-confidentialite</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://netrevision.fr/cgu</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- ========================== -->
+  <!-- COURS : 49 chapitres CCNA 200-301 -->
+  <!-- ========================== -->
+
+  <!-- P1: Fondamentaux Reseau (11 chapitres) — Domaine 1.0 (20%) -->
+  <url><loc>https://netrevision.fr/cours/modele-osi</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/composants-reseau</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/topologies-architectures</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/cablage-interfaces</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/switching-ethernet</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/adressage-ipv4-subnetting</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/tcp-vs-udp</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/problemes-interfaces</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/introduction-ipv6</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/verification-ip-os</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/virtualisation-fondamentaux</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- P2: Acces Reseau & Connectivite IP (10 chapitres) — Domaines 2.0 + 3.0 (45%) -->
+  <url><loc>https://netrevision.fr/cours/vlans-trunking</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/spanning-tree</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/inter-vlan-routing</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/cdp-lldp</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/etherchannel-lacp</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/table-routage</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/routage-statique</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/ipv6-configuration</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/ospfv2-single-area</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/routage-dynamique-concepts</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- P3: Services IP & Entreprise (11 chapitres) — Domaine 4.0 (10%) -->
+  <url><loc>https://netrevision.fr/cours/nat</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/dhcp-relay</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/dns-reseau</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/ntp</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/snmp</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/syslog</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/qos-concepts</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/ssh-acces-distant</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/tftp-ftp</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/fhrp-redondance</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/acl-access-control</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- P4: Securite (4 chapitres) — Domaine 5.0 (15%) -->
+  <url><loc>https://netrevision.fr/cours/concepts-securite</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/securite-layer2</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/vpn-ipsec</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/aaa-controle-acces</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- P5: Wireless (6 chapitres) — Wireless topics des domaines 1.0, 2.0, 5.0 -->
+  <url><loc>https://netrevision.fr/cours/principes-wifi</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/architectures-wireless</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/infrastructure-wlan</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/securite-wireless</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/configuration-wlan-gui</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/gestion-acces-equipements</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- P6: Automation & Programmabilite (7 chapitres) — Domaine 6.0 (10%) -->
+  <url><loc>https://netrevision.fr/cours/impact-automatisation</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/traditionnel-vs-controller</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/architecture-sdn</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/ai-ml-reseaux</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/apis-rest</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/outils-gestion-config</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/cours/json-interpretation</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- ========================== -->
+  <!-- BLOG : 116 articles -->
+  <!-- ========================== -->
+
+  <!-- Articles originaux (16) -->
+  <url><loc>https://netrevision.fr/blog/comprendre-modele-osi</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/blog/adressage-ipv4-guide</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/blog/subnetting-methode</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/blog/configurer-vlan-cisco</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/blog/routage-statique-dynamique</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/blog/comprendre-tcp-udp</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/blog/dns-dhcp-fonctionnement</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/blog/securiser-reseau-acl</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/blog/preparation-ccna-200-301</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/blog/ccna-sujets-examen</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/blog/commandes-cisco-essentielles</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/blog/labos-pratiques-ccna</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/blog/erreurs-courantes-ccna</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/blog/automatisation-reseau-python</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/blog/sd-wan-introduction</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://netrevision.fr/blog/zero-trust-securite</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Protocoles reseau (10) -->
+  <url><loc>https://netrevision.fr/blog/ospf-aires-lsa</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/bgp-fondamentaux</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/stp-rstp-boucles</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/hsrp-vrrp-redondance</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/eigrp-protocole-cisco</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/isis-routage-etat-liens</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/etherchannel-lacp-agregation</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/cdp-lldp-decouverte</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/snmp-v2c-v3-supervision</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/multicast-igmp-pim</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Configuration Cisco (10) -->
+  <url><loc>https://netrevision.fr/blog/config-routeur-cisco-base</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/config-switch-cisco-base</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/configurer-ospf-single-area</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/configurer-acl-etendues</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/configurer-nat-statique-dynamique</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/configurer-vpn-ipsec-site</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/configurer-dhcp-routeur-cisco</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/configurer-vlan-trunk-802</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/routage-inter-vlan-router-stick</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/configurer-ssh-securiser-cisco</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Securite reseau (10) -->
+  <url><loc>https://netrevision.fr/blog/types-firewalls-ngfw</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/ids-ips-detection-prevention</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/attaques-reseau-courantes</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/securiser-wifi-entreprise</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/vpn-ipsec-vs-ssl-tls</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/802-1x-controle-acces-port</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/port-security-switch-cisco</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/dhcp-snooping-dai-securite</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/architecture-dmz-conception</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/ssl-tls-chiffrement-detail</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- IPv6 et adressage (10) -->
+  <url><loc>https://netrevision.fr/blog/migration-ipv4-ipv6-guide</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/types-adresses-ipv6</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/dhcpv6-vs-slaac</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/icmpv6-ndp-voisins</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/tunnels-ipv6-transition</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/dual-stack-coexistence</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/subnetting-ipv4-methode-rapide</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/vlsm-masques-variables</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/cidr-agregation-routes</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/plan-adressage-ip-methodologie</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Depannage reseau (10) -->
+  <url><loc>https://netrevision.fr/blog/methodologie-depannage-reseau</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/commandes-show-cisco-essentielles</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/depannage-ospf-erreurs</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/depannage-vlan-trunk</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/wireshark-capturer-analyser</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/depannage-dns-outils</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/depannage-connectivite-ip</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/depannage-nat-pat-erreurs</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/depannage-vpn-ipsec-tunnels</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/traceroute-ping-mtr-diagnostic</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Certification et carriere (20) -->
+  <url><loc>https://netrevision.fr/blog/ccna-200-301-plan-revision</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/ccnp-enterprise-parcours</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/comptia-network-vs-ccna</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/devnet-associate-programmabilite</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/certifications-cybersecurite-guide</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/lab-ccna-maison-guide</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/erreurs-examen-ccna-eviter</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/ccna-themes-plus-testes</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/ressources-gratuites-ccna</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/packet-tracer-guide-complet</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/gns3-eve-ng-comparaison</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/qcm-ccna-strategies</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/automatisation-reseau-ccna-python</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/carriere-reseaux-metiers-salaires</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/technicien-architecte-parcours</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/freelance-reseaux-lancer</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/entretien-technique-reseau</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/linux-commandes-reseau-essentielles</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/soft-skills-ingenieurs-reseau</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/mpls-fonctionnement-cas-usage</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Technologies avancees (10) -->
+  <url><loc>https://netrevision.fr/blog/qos-classification-marquage</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/gre-tunneling-encapsulation</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/dmvpn-vpn-dynamique-multipoint</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/segment-routing-moderne</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/evpn-vxlan-fabric-datacenter</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/intent-based-networking-ibn</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/network-automation-python-netmiko</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/ansible-reseaux-automatisation</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/terraform-infrastructure-reseau</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/gitops-reseaux-cicd</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Wireless et IoT (6) -->
+  <url><loc>https://netrevision.fr/blog/wifi-6-6e-nouveautes</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/architecture-wifi-entreprise-wlc</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/site-survey-wifi-planification</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/iot-reseaux-lpwan-protocoles</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/wifi-7-revolution-sans-fil</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/5g-reseaux-prives-entreprise</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Datacenter et cloud (14) -->
+  <url><loc>https://netrevision.fr/blog/architecture-spine-leaf-datacenter</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/stockage-reseau-san-nas-iscsi</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/load-balancing-techniques</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/dns-avance-dnssec-doh-dot</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/monitoring-zabbix-grafana-prometheus</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/sd-wan-architecture-deploiement</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/nfv-virtualisation-fonctions</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/vxlan-extension-layer2-datacenter</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/zero-trust-network-securite</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/cloud-aws-vpc-networking</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/azure-virtual-network-bases</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/docker-networking-conteneurs</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/kubernetes-networking-pods-services</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://netrevision.fr/blog/observabilite-reseau-logs-metriques</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+</urlset>

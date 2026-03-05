@@ -1,0 +1,301 @@
+# NetRevision — llms.txt
+# https://netrevision.fr
+# Last updated: 2026-02-26
+
+## Site overview
+
+NetRevision est la plateforme francaise de reference pour la revision gratuite de la certification Cisco CCNA 200-301 (Cisco Certified Network Associate).
+
+La plateforme couvre 100% des 6 domaines officiels du CCNA 200-301 v1.1 :
+- Domaine 1.0 — Network Fundamentals (20% de l'examen)
+- Domaine 2.0 — Network Access (20% de l'examen)
+- Domaine 3.0 — IP Connectivity (25% de l'examen)
+- Domaine 4.0 — IP Services (10% de l'examen)
+- Domaine 5.0 — Security Fundamentals (15% de l'examen)
+- Domaine 6.0 — Automation and Programmability (10% de l'examen)
+
+Fondee par Morvin Quernel, la plateforme propose :
+- 49 chapitres de cours structures en 6 programmes
+- 690+ questions QCM couvrant tous les sujets de l'examen
+- 6 examens finaux (un par programme) + 1 examen global
+- Un simulateur CLI Cisco IOS interactif avec labs guides
+- Des exercices de subnetting (3 niveaux de difficulte)
+- Des flashcards et un systeme de revision espacee (algorithme SM-2)
+- Un glossaire de 149 termes reseaux
+- Un mode duel contre l'IA et un mode survie
+- Des defis CTF (Capture The Flag) reseau
+- Un systeme de gamification complet (28 badges, 15 niveaux, classement)
+- Un blog avec 116 articles techniques publies quotidiennement
+
+L'inscription est 100% gratuite, sans carte bancaire.
+
+Le blog publie un nouvel article chaque jour couvrant des tutoriels Cisco, guides de certification CCNA/CCNP, configurations pratiques et sujets avances en reseaux.
+
+## Programmes de cours CCNA 200-301
+
+### Programme 1 — Fondamentaux Reseau (11 chapitres)
+Couvre le domaine 1.0 Network Fundamentals : modele OSI/TCP-IP, composants reseau, topologies, cablage, switching Ethernet, adressage IPv4 et subnetting, TCP vs UDP, diagnostic d'interfaces, introduction IPv6, verification IP sur les OS, virtualisation.
+
+- https://netrevision.fr/cours/modele-osi — Le Modele OSI / TCP-IP
+- https://netrevision.fr/cours/composants-reseau — Composants reseau : roles et fonctions
+- https://netrevision.fr/cours/topologies-architectures — Topologies et architectures reseau
+- https://netrevision.fr/cours/cablage-interfaces — Cablage et interfaces physiques
+- https://netrevision.fr/cours/switching-ethernet — Switching Ethernet et domaines de broadcast
+- https://netrevision.fr/cours/adressage-ipv4-subnetting — Adressage IPv4 et Subnetting
+- https://netrevision.fr/cours/tcp-vs-udp — TCP vs UDP en detail
+- https://netrevision.fr/cours/problemes-interfaces — Problemes d'interfaces et diagnostic
+- https://netrevision.fr/cours/introduction-ipv6 — Introduction a IPv6
+- https://netrevision.fr/cours/verification-ip-os — Verification IP sur les OS
+- https://netrevision.fr/cours/virtualisation-fondamentaux — Fondamentaux de la virtualisation
+
+### Programme 2 — Acces Reseau & Connectivite IP (10 chapitres)
+Couvre les domaines 2.0 Network Access + 3.0 IP Connectivity : VLANs, trunking 802.1Q, Spanning Tree (RPVST+), routage inter-VLAN, CDP/LLDP, EtherChannel/LACP, table de routage, routage statique, configuration IPv6, OSPFv2 single-area, concepts de routage dynamique.
+
+- https://netrevision.fr/cours/vlans-trunking — VLANs et Trunking 802.1Q
+- https://netrevision.fr/cours/spanning-tree — Spanning Tree Protocol (RPVST+)
+- https://netrevision.fr/cours/inter-vlan-routing — Inter-VLAN Routing
+- https://netrevision.fr/cours/cdp-lldp — CDP et LLDP
+- https://netrevision.fr/cours/etherchannel-lacp — EtherChannel (LACP)
+- https://netrevision.fr/cours/table-routage — La table de routage en detail
+- https://netrevision.fr/cours/routage-statique — Routage statique
+- https://netrevision.fr/cours/ipv6-configuration — Configuration et verification IPv6
+- https://netrevision.fr/cours/ospfv2-single-area — OSPFv2 Single Area
+- https://netrevision.fr/cours/routage-dynamique-concepts — Concepts de routage dynamique
+
+### Programme 3 — Services IP & Entreprise (11 chapitres)
+Couvre le domaine 4.0 IP Services : NAT/PAT, DHCP et relay, DNS, NTP, SNMP, Syslog, QoS concepts, SSH, TFTP/FTP, FHRP (redondance premier saut), ACL (Access Control Lists).
+
+- https://netrevision.fr/cours/nat — NAT / PAT
+- https://netrevision.fr/cours/dhcp-relay — DHCP : Config et Relay
+- https://netrevision.fr/cours/dns-reseau — DNS dans le reseau
+- https://netrevision.fr/cours/ntp — NTP (Network Time Protocol)
+- https://netrevision.fr/cours/snmp — SNMP : Supervision reseau
+- https://netrevision.fr/cours/syslog — Syslog
+- https://netrevision.fr/cours/qos-concepts — QoS : Concepts fondamentaux
+- https://netrevision.fr/cours/ssh-acces-distant — SSH : Acces distant securise
+- https://netrevision.fr/cours/tftp-ftp — TFTP et FTP
+- https://netrevision.fr/cours/fhrp-redondance — FHRP : Redondance premier saut
+- https://netrevision.fr/cours/acl-access-control — ACL : Access Control Lists
+
+### Programme 4 — Securite (4 chapitres)
+Couvre le domaine 5.0 Security Fundamentals : concepts cles de securite, securite Layer 2 (port security, DHCP snooping, DAI), VPN IPsec, AAA et controle d'acces.
+
+- https://netrevision.fr/cours/concepts-securite — Concepts cles de securite
+- https://netrevision.fr/cours/securite-layer2 — Securite Layer 2
+- https://netrevision.fr/cours/vpn-ipsec — VPN IPsec
+- https://netrevision.fr/cours/aaa-controle-acces — AAA et controle d'acces
+
+### Programme 5 — Wireless (6 chapitres)
+Couvre les sujets wireless des domaines 1.0, 2.0 et 5.0 : principes Wi-Fi, architectures wireless Cisco (autonomous vs controller-based), infrastructure WLAN, protocoles de securite wireless (WPA2/WPA3), configuration WLAN via GUI (WLC), gestion et acces aux equipements.
+
+- https://netrevision.fr/cours/principes-wifi — Principes fondamentaux du Wi-Fi
+- https://netrevision.fr/cours/architectures-wireless — Architectures wireless Cisco
+- https://netrevision.fr/cours/infrastructure-wlan — Infrastructure physique WLAN
+- https://netrevision.fr/cours/securite-wireless — Protocoles de securite wireless
+- https://netrevision.fr/cours/configuration-wlan-gui — Configuration WLAN via GUI (WLC)
+- https://netrevision.fr/cours/gestion-acces-equipements — Gestion et acces aux equipements
+
+### Programme 6 — Automation & Programmabilite (7 chapitres)
+Couvre le domaine 6.0 Automation and Programmability : impact de l'automatisation sur les reseaux, architecture traditionnelle vs controller-based, SDN, AI/ML dans les reseaux, APIs REST, outils de gestion de configuration (Ansible, Puppet, Chef), interpretation JSON.
+
+- https://netrevision.fr/cours/impact-automatisation — Impact de l'automatisation
+- https://netrevision.fr/cours/traditionnel-vs-controller — Traditionnel vs Controller-based
+- https://netrevision.fr/cours/architecture-sdn — Architecture SDN
+- https://netrevision.fr/cours/ai-ml-reseaux — AI et Machine Learning reseaux
+- https://netrevision.fr/cours/apis-rest — APIs REST
+- https://netrevision.fr/cours/outils-gestion-config — Outils de gestion de config
+- https://netrevision.fr/cours/json-interpretation — JSON : Lire et interpreter
+
+## Blog articles (public, no authentication required) — 116 articles
+
+### Fondamentaux (articles originaux)
+- https://netrevision.fr/blog/comprendre-modele-osi — Comprendre le Modele OSI en 7 couches
+- https://netrevision.fr/blog/adressage-ipv4-guide — Guide complet de l'adressage IPv4
+- https://netrevision.fr/blog/subnetting-methode — Methode complete pour maitriser le subnetting
+- https://netrevision.fr/blog/configurer-vlan-cisco — Configurer un VLAN sur un switch Cisco
+- https://netrevision.fr/blog/routage-statique-dynamique — Routage statique vs dynamique
+- https://netrevision.fr/blog/comprendre-tcp-udp — Comprendre TCP et UDP
+- https://netrevision.fr/blog/dns-dhcp-fonctionnement — DNS et DHCP : fonctionnement complet
+- https://netrevision.fr/blog/securiser-reseau-acl — Securiser un reseau avec les ACL
+- https://netrevision.fr/blog/preparation-ccna-200-301 — Comment preparer le CCNA 200-301
+- https://netrevision.fr/blog/ccna-sujets-examen — Les sujets de l'examen CCNA 200-301
+- https://netrevision.fr/blog/commandes-cisco-essentielles — Commandes Cisco IOS essentielles
+- https://netrevision.fr/blog/labos-pratiques-ccna — Labos pratiques pour le CCNA
+- https://netrevision.fr/blog/erreurs-courantes-ccna — Erreurs courantes a l'examen CCNA
+- https://netrevision.fr/blog/automatisation-reseau-python — Automatisation reseau avec Python
+- https://netrevision.fr/blog/sd-wan-introduction — Introduction au SD-WAN
+- https://netrevision.fr/blog/zero-trust-securite — Zero Trust : le nouveau modele de securite
+
+### Protocoles reseau
+- https://netrevision.fr/blog/ospf-aires-lsa — OSPF en detail - Fonctionnement des aires et des LSA
+- https://netrevision.fr/blog/bgp-fondamentaux — BGP pour debutants - Concepts fondamentaux
+- https://netrevision.fr/blog/stp-rstp-boucles — STP et RSTP - Prevenir les boucles reseau
+- https://netrevision.fr/blog/hsrp-vrrp-redondance — HSRP et VRRP - Redondance de passerelle
+- https://netrevision.fr/blog/eigrp-protocole-cisco — EIGRP - Le protocole proprietaire Cisco
+- https://netrevision.fr/blog/isis-routage-etat-liens — IS-IS - Protocole de routage a etat de liens
+- https://netrevision.fr/blog/etherchannel-lacp-agregation — EtherChannel et LACP - Agregation de liens
+- https://netrevision.fr/blog/cdp-lldp-decouverte — CDP et LLDP - Protocoles de decouverte
+- https://netrevision.fr/blog/snmp-v2c-v3-supervision — SNMP v2c vs v3 - Supervision reseau
+- https://netrevision.fr/blog/multicast-igmp-pim — Multicast IP - IGMP et PIM
+
+### Configuration Cisco
+- https://netrevision.fr/blog/config-routeur-cisco-base — Configuration de base d'un routeur Cisco
+- https://netrevision.fr/blog/config-switch-cisco-base — Configuration de base d'un switch Cisco
+- https://netrevision.fr/blog/configurer-ospf-single-area — Configurer OSPF single-area sur Cisco IOS
+- https://netrevision.fr/blog/configurer-acl-etendues — Configurer les ACL etendues pas a pas
+- https://netrevision.fr/blog/configurer-nat-statique-dynamique — Configurer le NAT statique et dynamique
+- https://netrevision.fr/blog/configurer-vpn-ipsec-site — Configurer un VPN site-a-site IPsec
+- https://netrevision.fr/blog/configurer-dhcp-routeur-cisco — Configurer DHCP sur un routeur Cisco
+- https://netrevision.fr/blog/configurer-vlan-trunk-802 — Configurer les VLAN et le trunk 802.1Q
+- https://netrevision.fr/blog/routage-inter-vlan-router-stick — Routage inter-VLAN (Router-on-a-Stick)
+- https://netrevision.fr/blog/configurer-ssh-securiser-cisco — Configurer SSH et securiser Cisco IOS
+
+### Securite reseau
+- https://netrevision.fr/blog/types-firewalls-ngfw — Types de firewalls - Stateful, proxy et NGFW
+- https://netrevision.fr/blog/ids-ips-detection-prevention — IDS vs IPS - Detection et prevention
+- https://netrevision.fr/blog/attaques-reseau-courantes — Les 10 attaques reseau les plus courantes
+- https://netrevision.fr/blog/securiser-wifi-entreprise — Securiser un reseau Wi-Fi d'entreprise
+- https://netrevision.fr/blog/vpn-ipsec-vs-ssl-tls — VPN IPsec vs SSL/TLS - Comparaison
+- https://netrevision.fr/blog/802-1x-controle-acces-port — 802.1X - Controle d'acces reseau par port
+- https://netrevision.fr/blog/port-security-switch-cisco — Port Security sur switch Cisco
+- https://netrevision.fr/blog/dhcp-snooping-dai-securite — DHCP Snooping et Dynamic ARP Inspection
+- https://netrevision.fr/blog/architecture-dmz-conception — Architecture DMZ - Bonnes pratiques
+- https://netrevision.fr/blog/ssl-tls-chiffrement-detail — SSL/TLS en detail - Chiffrement moderne
+
+### IPv6 et adressage
+- https://netrevision.fr/blog/migration-ipv4-ipv6-guide — Migration IPv4 vers IPv6 - Guide pratique
+- https://netrevision.fr/blog/types-adresses-ipv6 — Types d'adresses IPv6
+- https://netrevision.fr/blog/dhcpv6-vs-slaac — DHCPv6 vs SLAAC - Autoconfiguration IPv6
+- https://netrevision.fr/blog/icmpv6-ndp-voisins — ICMPv6 et NDP - Decouverte de voisins
+- https://netrevision.fr/blog/tunnels-ipv6-transition — Tunnels IPv6 - Techniques de transition
+- https://netrevision.fr/blog/dual-stack-coexistence — Dual-stack - Coexistence IPv4 et IPv6
+- https://netrevision.fr/blog/subnetting-ipv4-methode-rapide — Subnetting IPv4 - Methode rapide
+- https://netrevision.fr/blog/vlsm-masques-variables — VLSM - Masques a longueur variable
+- https://netrevision.fr/blog/cidr-agregation-routes — CIDR et agregation de routes
+- https://netrevision.fr/blog/plan-adressage-ip-methodologie — Plan d'adressage IP - Methodologie
+
+### Depannage reseau
+- https://netrevision.fr/blog/methodologie-depannage-reseau — Methodologie de depannage en 7 etapes
+- https://netrevision.fr/blog/commandes-show-cisco-essentielles — Commandes show essentielles Cisco
+- https://netrevision.fr/blog/depannage-ospf-erreurs — Depannage OSPF - 5 erreurs frequentes
+- https://netrevision.fr/blog/depannage-vlan-trunk — Depannage VLAN et trunk
+- https://netrevision.fr/blog/wireshark-capturer-analyser — Wireshark - Capturer et analyser le trafic
+- https://netrevision.fr/blog/depannage-dns-outils — Depannage DNS - Outils et commandes
+- https://netrevision.fr/blog/depannage-connectivite-ip — Depannage de connectivite IP pas a pas
+- https://netrevision.fr/blog/depannage-nat-pat-erreurs — Depannage NAT/PAT - Erreurs courantes
+- https://netrevision.fr/blog/depannage-vpn-ipsec-tunnels — Depannage VPN IPsec
+- https://netrevision.fr/blog/traceroute-ping-mtr-diagnostic — Traceroute, ping et MTR
+
+### Certification et carriere
+- https://netrevision.fr/blog/ccna-200-301-plan-revision — CCNA 200-301 - Plan en 12 semaines
+- https://netrevision.fr/blog/ccnp-enterprise-parcours — CCNP Enterprise - Parcours et prerequis
+- https://netrevision.fr/blog/comptia-network-vs-ccna — CompTIA Network+ vs CCNA
+- https://netrevision.fr/blog/devnet-associate-programmabilite — DevNet Associate - Programmabilite Cisco
+- https://netrevision.fr/blog/certifications-cybersecurite-guide — Certifications cybersecurite
+- https://netrevision.fr/blog/lab-ccna-maison-guide — Lab CCNA a la maison - Guide complet
+- https://netrevision.fr/blog/erreurs-examen-ccna-eviter — 10 erreurs a eviter a l'examen CCNA
+- https://netrevision.fr/blog/ccna-themes-plus-testes — CCNA - Themes les plus testes
+- https://netrevision.fr/blog/ressources-gratuites-ccna — Ressources gratuites pour le CCNA
+- https://netrevision.fr/blog/packet-tracer-guide-complet — Cisco Packet Tracer - Guide complet
+- https://netrevision.fr/blog/gns3-eve-ng-comparaison — GNS3 vs EVE-NG vs Packet Tracer
+- https://netrevision.fr/blog/qcm-ccna-strategies — QCM CCNA - Strategies efficaces
+- https://netrevision.fr/blog/automatisation-reseau-ccna-python — Automatisation reseau pour le CCNA
+- https://netrevision.fr/blog/carriere-reseaux-metiers-salaires — Carriere en reseaux - Metiers et salaires
+- https://netrevision.fr/blog/technicien-architecte-parcours — De technicien a architecte reseau
+- https://netrevision.fr/blog/freelance-reseaux-lancer — Freelance en reseaux - Se lancer
+- https://netrevision.fr/blog/entretien-technique-reseau — Entretien technique reseau - Preparation
+- https://netrevision.fr/blog/linux-commandes-reseau-essentielles — Linux - Commandes reseau essentielles
+- https://netrevision.fr/blog/soft-skills-ingenieurs-reseau — Soft skills pour ingenieurs reseau
+- https://netrevision.fr/blog/mpls-fonctionnement-cas-usage — MPLS - Fonctionnement et cas d'usage
+
+### Technologies avancees
+- https://netrevision.fr/blog/qos-classification-marquage — QoS - Classification et marquage
+- https://netrevision.fr/blog/gre-tunneling-encapsulation — GRE Tunneling - Encapsulation generique
+- https://netrevision.fr/blog/dmvpn-vpn-dynamique-multipoint — DMVPN - VPN dynamique multipoint
+- https://netrevision.fr/blog/segment-routing-moderne — Segment Routing - Routage source moderne
+- https://netrevision.fr/blog/evpn-vxlan-fabric-datacenter — EVPN-VXLAN - Fabric datacenter
+- https://netrevision.fr/blog/intent-based-networking-ibn — Intent-Based Networking
+- https://netrevision.fr/blog/network-automation-python-netmiko — Network Automation avec Python
+- https://netrevision.fr/blog/ansible-reseaux-automatisation — Ansible pour les reseaux
+- https://netrevision.fr/blog/terraform-infrastructure-reseau — Terraform pour l'infrastructure reseau
+- https://netrevision.fr/blog/gitops-reseaux-cicd — GitOps pour les reseaux - CI/CD
+
+### Wireless et IoT
+- https://netrevision.fr/blog/wifi-6-6e-nouveautes — Wi-Fi 6 et Wi-Fi 6E - Technologies
+- https://netrevision.fr/blog/architecture-wifi-entreprise-wlc — Architecture Wi-Fi d'entreprise
+- https://netrevision.fr/blog/site-survey-wifi-planification — Site survey Wi-Fi - Planification
+- https://netrevision.fr/blog/iot-reseaux-lpwan-protocoles — IoT et reseaux - Protocoles LPWAN
+- https://netrevision.fr/blog/wifi-7-revolution-sans-fil — Wi-Fi 7 - La revolution du sans-fil
+- https://netrevision.fr/blog/5g-reseaux-prives-entreprise — 5G et reseaux prives d'entreprise
+
+### Datacenter et cloud
+- https://netrevision.fr/blog/architecture-spine-leaf-datacenter — Architecture spine-leaf
+- https://netrevision.fr/blog/stockage-reseau-san-nas-iscsi — Stockage reseau - SAN, NAS, iSCSI
+- https://netrevision.fr/blog/load-balancing-techniques — Load balancing - Techniques
+- https://netrevision.fr/blog/dns-avance-dnssec-doh-dot — DNS avance - DNSSEC, DoH et DoT
+- https://netrevision.fr/blog/monitoring-zabbix-grafana-prometheus — Monitoring - Zabbix, Grafana, Prometheus
+- https://netrevision.fr/blog/sd-wan-architecture-deploiement — SD-WAN - Architecture et deploiement
+- https://netrevision.fr/blog/nfv-virtualisation-fonctions — NFV - Virtualisation des fonctions reseau
+- https://netrevision.fr/blog/vxlan-extension-layer2-datacenter — VXLAN - Extension Layer 2 datacenter
+- https://netrevision.fr/blog/zero-trust-network-securite — Zero Trust Network - Securite sans perimetre
+- https://netrevision.fr/blog/cloud-aws-vpc-networking — AWS VPC - Networking cloud
+- https://netrevision.fr/blog/azure-virtual-network-bases — Azure Virtual Network - Fondamentaux
+- https://netrevision.fr/blog/docker-networking-conteneurs — Reseaux Docker - Bridge, host, overlay
+- https://netrevision.fr/blog/kubernetes-networking-pods-services — Kubernetes Networking
+- https://netrevision.fr/blog/observabilite-reseau-logs-metriques — Observabilite reseau
+
+## Key pages
+- https://netrevision.fr/ — Page d'accueil : presentation de la plateforme CCNA
+- https://netrevision.fr/cours — Liste des 49 chapitres organises en 6 programmes
+- https://netrevision.fr/blog — Tous les articles du blog (116 articles)
+- https://netrevision.fr/a-propos — A propos de NetRevision
+- https://netrevision.fr/auteur — Morvin Quernel, fondateur et auteur
+- https://netrevision.fr/register — Inscription gratuite
+
+## CCNA 200-301 exam topics covered (100% coverage)
+
+### 1.0 Network Fundamentals (20%)
+Modele OSI et TCP/IP, composants reseau (routeurs, switches, AP, firewalls, IPS, WLC), topologies reseau (2-tier, 3-tier, spine-leaf, WAN, SOHO), cablage (UTP, fibre, cuivre), switching Ethernet, domaines de broadcast et collision, adressage IPv4/IPv6, subnetting VLSM/CIDR, TCP vs UDP, diagnostic d'interfaces (speed, duplex, errors), virtualisation (VMs, hyperviseurs, containers).
+
+### 2.0 Network Access (20%)
+VLANs et Trunking 802.1Q, Spanning Tree Protocol (RPVST+), EtherChannel (LACP), CDP et LLDP, architectures wireless (autonomous, controller-based, cloud), configuration WLAN via WLC GUI, gestion des equipements reseau.
+
+### 3.0 IP Connectivity (25%)
+Table de routage (codes, types de routes, distance administrative), routage statique (default route, floating static), OSPFv2 single-area (neighbor adjacency, DR/BDR, cost, metric), routage inter-VLAN (router-on-a-stick, SVI), configuration et verification IPv6, concepts de routage dynamique (IGP vs EGP, distance vector vs link-state).
+
+### 4.0 IP Services (10%)
+NAT/PAT (static, dynamic, PAT/overload), DHCP (client, relay agent, server configuration), DNS resolution, NTP synchronisation, SNMP (v2c, v3), Syslog (facilities, severity levels), QoS concepts (classification, marking, queuing, shaping, policing, congestion), SSH/Telnet, TFTP/FTP, FHRP (HSRP, VRRP, GLBP), ACL (standard, extended, named).
+
+### 5.0 Security Fundamentals (15%)
+Concepts de securite (menaces, vulnerabilites, exploits), securite Layer 2 (port security, DHCP snooping, DAI, storm control), VPN IPsec (concepts, tunnel vs transport, AH vs ESP), AAA (RADIUS, TACACS+, local authentication), securite wireless (WPA2, WPA3, 802.1X), ACL pour securite.
+
+### 6.0 Automation and Programmability (10%)
+Impact de l'automatisation sur la gestion reseau, architecture traditionnelle vs controller-based (SDN), Cisco DNA Center vs ACI, AI/ML dans les operations reseau, APIs REST (CRUD, HTTP verbs, data encoding), outils de gestion de configuration (Ansible, Puppet, Chef), interpretation de donnees JSON.
+
+## FAQ — Questions frequemment posees
+
+Q: NetRevision est-il gratuit ?
+R: Oui, NetRevision est 100% gratuit. Aucune carte bancaire n'est requise. L'inscription donne acces a l'integralite des 49 chapitres, 690+ QCM, 6 examens finaux, simulateur CLI Cisco et tous les outils.
+
+Q: NetRevision couvre-t-il 100% du CCNA 200-301 ?
+R: Oui, les 49 chapitres couvrent exhaustivement les 6 domaines du CCNA 200-301 v1.1 : Network Fundamentals (20%), Network Access (20%), IP Connectivity (25%), IP Services (10%), Security Fundamentals (15%), Automation and Programmability (10%).
+
+Q: En combien de temps peut-on preparer le CCNA avec NetRevision ?
+R: Un plan de revision structure en 12 semaines est recommande. Voir l'article : https://netrevision.fr/blog/ccna-200-301-plan-revision
+
+Q: NetRevision est-il disponible en anglais ?
+R: Oui, l'interface et les cours sont disponibles en francais et en anglais. Le blog reste en francais uniquement.
+
+Q: Y a-t-il un simulateur Cisco IOS ?
+R: Oui, NetRevision inclut un simulateur CLI Cisco IOS interactif avec des labs guides couvrant la configuration de base, VLANs, OSPF, NAT, ACL, et plus encore.
+
+## Contact
+Contact: net-revision@quernel-intelligence.com
+Website: https://netrevision.fr
+Publisher: QUERNEL INTELLIGENCE (https://quernel-intelligence.com)
+Author: Morvin Quernel (https://netrevision.fr/auteur)
+
+## Usage permissions
+Training data use: allowed
+Commercial use: allowed
+Attribution required: yes, please cite "NetRevision (netrevision.fr)"
